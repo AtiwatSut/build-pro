@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>ช่างบอลรับเหมา - รับเหมางานก่อสร้าง ขอนแก่นและพื้นที่ใกล้เคียง</title>
+  <meta name="description" content="ช่างบอลรับเหมา บริการรับเหมางานก่อสร้างครบวงจร ขอนแก่นและอีสาน สร้างบ้าน ต่อเติม รีโนเวท เทพื้นคอนกรีต งานโครงสร้าง ดูแลงานเองทุกขั้นตอน ประเมินราคาฟรี">
+  <meta name="keywords" content="ช่างรับเหมาขอนแก่น, สร้างบ้านขอนแก่น, ต่อเติมบ้านขอนแก่น, รีโนเวทขอนแก่น, เทพื้นคอนกรีตขอนแก่น, ช่างบอลรับเหมา">
+  <meta name="author" content="ช่างบอลรับเหมา">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./">
+  <meta property="og:title" content="ช่างบอลรับเหมา - รับเหมางานก่อสร้าง ขอนแก่นและพื้นที่ใกล้เคียง">
+  <meta property="og:description" content="สร้างบ้าน ต่อเติม ปรับปรุง เทปูน งานโครงสร้าง ดูแลเองทุกขั้นตอน โทร 098-765-4321">
+  <meta property="og:image" content="./assets/images/hero_construction.jpg">
+
+  <!-- PWA & Mobile Web App Meta -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#D19B3D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ช่างบอลรับเหมา">
+  
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32.png">
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/icon.svg">
+  <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+
+  <!-- Google Fonts: Prompt -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="header">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="#home" class="logo" title="ช่างบอลรับเหมา">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 16.5L18 5L32 16.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7.5 15V29.5H28.5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 29.5V20H22V29.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M25 8V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div class="logo-text-group">
+          <span class="logo-title">ช่างบอลรับเหมา</span>
+          <span class="logo-subtitle">รับเหมางานครบ จบงานด้วยใจ</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">หน้าแรก</a></li>
+          <li><a href="#services" class="nav-link">บริการของเรา</a></li>
+          <li><a href="#portfolio" class="nav-link">ผลงานของเรา</a></li>
+          <li><a href="#about" class="nav-link">เกี่ยวกับเรา</a></li>
+          <li><a href="#service-area" class="nav-link">พื้นที่ให้บริการ</a></li>
+          <li><a href="#contact" class="nav-link">ติดต่อเรา</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTA Button -->
+      <a href="tel:0987654321" class="btn-nav-call" title="โทรติดต่อช่างบอล">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+        <span>โทรติดต่อ</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="เปิดเมนู" aria-expanded="false">
+        &#9776;
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          รับเหมางานก่อสร้าง<br>
+          <span class="text-gold">ขอนแก่น</span>และพื้นที่ใกล้เคียง
+        </h1>
+        <p class="hero-desc">
+          สร้างบ้าน ต่อเติม ปรับปรุง เทปูน งานโครงสร้าง<br>
+          งานทั่วไป ดูแลเองทุกขั้นตอน
+        </p>
+
+        <!-- 3 Feature Badges -->
+        <div class="hero-features">
+          <div class="hero-feature-card">
+            <svg class="hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <span class="hero-feature-text">คุยง่าย<br>ตรงไปตรงมา</span>
+          </div>
+
+          <div class="hero-feature-card">
+            <svg class="hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span class="hero-feature-text">ดูแลงานเอง<br>ทุกขั้นตอน</span>
+          </div>
+
+          <div class="hero-feature-card">
+            <svg class="hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span class="hero-feature-text">งานเรียบร้อย<br>ตรงตามข้อตกลง</span>
+          </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group">
+          <a href="tel:0987654321" class="btn-hero-call">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            <span>โทรติดต่อ</span>
+          </a>
+          <a href="https://line.me/ti/p/~@changball" target="_blank" rel="noopener noreferrer" class="btn-hero-line">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 10.3c0-4.6-4.9-8.3-11-8.3C6.9 2 2 5.7 2 10.3c0 4.1 3.7 7.6 8.7 8.2.3.1.8.2.9.6.1.3.1.8 0 1.1-.1.5-.6 2.1-.8 2.6-.1.4-.5 1.6 1.4.9 1.9-.7 5.2-3.1 7.1-5.3 3-2.1 4.7-4.8 4.7-8.1z"/>
+            </svg>
+            <span>ทักไลน์</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Construction Site Image -->
+      <div class="hero-media-wrapper" data-lightbox data-img-src="./assets/images/hero_construction.jpg" data-title="งานก่อสร้างโครงสร้างบ้าน 2 ชั้น" data-loc="ขอนแก่น">
+        <img src="./assets/images/hero_construction.jpg" alt="รับเหมาก่อสร้างบ้าน ขอนแก่น" class="hero-media-img" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">บริการของเรา</h2>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: สร้างบ้าน -->
+        <div class="service-card" data-lightbox data-img-src="./assets/images/service_house.jpg" data-title="บริการรับสร้างบ้านใหม่" data-loc="ขอนแก่นและพื้นที่ใกล้เคียง">
+          <div class="service-icon-box">
+            <!-- House Icon -->
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 14L16 4L28 14"/>
+              <path d="M7 13V27H25V13"/>
+              <path d="M12 27V18H20V27"/>
+            </svg>
+          </div>
+          <h3 class="service-title">สร้างบ้าน</h3>
+          <p class="service-desc">รับสร้างบ้านใหม่<br>ตามแบบที่ต้องการ</p>
+          <div class="service-img-wrap">
+            <img src="./assets/images/service_house.jpg" alt="สร้างบ้านใหม่ ขอนแก่น" class="service-img" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 2: ต่อเติมบ้าน -->
+        <div class="service-card" data-lightbox data-img-src="./assets/images/service_extension.jpg" data-title="บริการต่อเติมบ้านและครัว" data-loc="ขอนแก่นและพื้นที่ใกล้เคียง">
+          <div class="service-icon-box">
+            <!-- Extension / Brick Icon -->
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="6" width="24" height="20" rx="2"/>
+              <line x1="4" y1="13" x2="28" y2="13"/>
+              <line x1="4" y1="20" x2="28" y2="20"/>
+              <line x1="16" y1="6" x2="16" y2="13"/>
+              <line x1="10" y1="13" x2="10" y2="20"/>
+              <line x1="22" y1="13" x2="22" y2="20"/>
+              <line x1="16" y1="20" x2="16" y2="26"/>
+            </svg>
+          </div>
+          <h3 class="service-title">ต่อเติมบ้าน</h3>
+          <p class="service-desc">ต่อเติมห้อง ครัว โรงจอดรถ<br>ห้องแถว อาคาร</p>
+          <div class="service-img-wrap">
+            <img src="./assets/images/service_extension.jpg" alt="ต่อเติมบ้าน โรงจอดรถ ครัว" class="service-img" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 3: ปรับปรุง / รีโนเวท -->
+        <div class="service-card" data-lightbox data-img-src="./assets/images/service_renovation.jpg" data-title="บริการปรับปรุง รีโนเวทบ้าน" data-loc="ขอนแก่นและพื้นที่ใกล้เคียง">
+          <div class="service-icon-box">
+            <!-- Paint Roller Icon -->
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="5" width="20" height="8" rx="2"/>
+              <path d="M26 9H28V16H18V21"/>
+              <rect x="15.5" y="21" width="5" height="7" rx="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-title">ปรับปรุง / รีโนเวท</h3>
+          <p class="service-desc">รีโนเวทบ้านเก่า ปรับปรุงภายใน<br>เปลี่ยนแปลงพื้นที่</p>
+          <div class="service-img-wrap">
+            <img src="./assets/images/service_renovation.jpg" alt="รีโนเวทบ้านเก่า ปรับปรุงห้อง" class="service-img" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 4: เทปูน พื้น -->
+        <div class="service-card" data-lightbox data-img-src="./assets/images/service_concrete.jpg" data-title="บริการเทพื้นคอนกรีต โรงรถ ลานบ้าน" data-loc="ขอนแก่นและพื้นที่ใกล้เคียง">
+          <div class="service-icon-box">
+            <!-- Concrete / Trowel Icon -->
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 4C13 10 7 14 7 19a9 9 0 0 0 18 0c0-5-6-9-9-15z"/>
+              <path d="M7 25h18"/>
+            </svg>
+          </div>
+          <h3 class="service-title">เทปูน พื้น</h3>
+          <p class="service-desc">เทพื้นโรงรถ ลานบ้าน พื้นโกดัง<br>พื้นทางเดิน พื้นคอนกรีต</p>
+          <div class="service-img-wrap">
+            <img src="./assets/images/service_concrete.jpg" alt="เทพื้นคอนกรีต ลานบ้าน ขอนแก่น" class="service-img" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 5: งานโครงสร้าง -->
+        <div class="service-card" data-lightbox data-img-src="./assets/images/service_structure.jpg" data-title="บริการงานโครงสร้าง คาน เสา พื้น หลังคา" data-loc="ขอนแก่นและพื้นที่ใกล้เคียง">
+          <div class="service-icon-box">
+            <!-- Building Structure Icon -->
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 28V6H26V28"/>
+              <line x1="6" y1="12" x2="26" y2="12"/>
+              <line x1="6" y1="18" x2="26" y2="18"/>
+              <line x1="6" y1="24" x2="26" y2="24"/>
+              <line x1="16" y1="6" x2="16" y2="28"/>
+              <path d="M3 28H29"/>
+            </svg>
+          </div>
+          <h3 class="service-title">งานโครงสร้าง</h3>
+          <p class="service-desc">งานโครงสร้าง คาน เสา<br>พื้น หลังคา</p>
+          <div class="service-img-wrap">
+            <img src="./assets/images/service_structure.jpg" alt="งานโครงสร้างเสา คาน พื้น" class="service-img" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 6: งานก่อสร้างทั่วไป -->
+        <div class="service-card" data-lightbox data-img-src="./assets/images/service_fence.jpg" data-title="บริการงานก่อสร้างทั่วไป รั้ว ปูน เหล็ก" data-loc="ขอนแก่นและพื้นที่ใกล้เคียง">
+          <div class="service-icon-box">
+            <!-- Tools Icon -->
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 6L26 13L22 17L15 10L19 6Z"/>
+              <path d="M15 10L6 19C5 20 5 22 6 23C7 24 9 24 10 23L19 14"/>
+              <path d="M8 21L11 24"/>
+            </svg>
+          </div>
+          <h3 class="service-title">งานก่อสร้างทั่วไป</h3>
+          <p class="service-desc">งานรั้ว งานปูน งานเหล็ก<br>งานอื่นๆ ตามต้องการ</p>
+          <div class="service-img-wrap">
+            <img src="./assets/images/service_fence.jpg" alt="งานก่อสร้างทั่วไป รั้ว ประตูเหล็ก" class="service-img" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT & WHY CHOOSE US ==================== -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <!-- Left: Contractor Portrait Photo -->
+      <div class="about-portrait-wrap">
+        <img src="./assets/images/contractor_portrait.jpg" alt="ช่างบอล ผู้รับเหมามืออาชีพ" class="about-portrait-img" loading="lazy">
+      </div>
+
+      <!-- Center: Contractor Introduction -->
+      <div class="about-intro-col">
+        <span class="about-greeting">สวัสดีครับ</span>
+        <h2 class="about-headline">ผมดูแลงานเอง<br>ทุกขั้นตอน</h2>
+        <p class="about-lead">
+          รับเหมางานก่อสร้างครบวงจร<br>
+          ตั้งแต่งานเล็กจนถึงงานใหญ่<br>
+          ใส่ใจในทุกรายละเอียด<br>
+          เหมือนบ้านของตัวเอง
+        </p>
+        <div class="about-signature-wrap">
+          <!-- Stylized Thai Signature SVG for ช่างบอล -->
+          <svg class="signature-svg" viewBox="0 0 160 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 32 C 18 15, 28 8, 38 18 C 44 26, 32 40, 24 38 C 16 35, 25 18, 48 24 C 65 28, 80 14, 92 20 C 104 25, 108 38, 120 22 C 128 12, 142 16, 150 28" stroke="#718096" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="35" y="44" font-family="'Prompt', cursive" font-size="16" font-style="italic" fill="#5A6679" font-weight="600">ช่างบอล</text>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Right: Why Choose Us Checklist Card -->
+      <div class="why-us-col">
+        <h3 class="why-us-title">ทำไมต้องเลือกเรา</h3>
+        <ul class="why-us-list">
+          <li class="why-us-item">
+            <svg class="why-us-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>คุยกับผู้รับเหมาโดยตรง ไม่ผ่านคนกลาง</span>
+          </li>
+          <li class="why-us-item">
+            <svg class="why-us-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>ดูแลงานเองทุกขั้นตอน จบงานตรงเวลา</span>
+          </li>
+          <li class="why-us-item">
+            <svg class="why-us-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>ประเมินราคาเป็นธรรม ไม่มีบวกเพิ่มภายหลัง</span>
+          </li>
+          <li class="why-us-item">
+            <svg class="why-us-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>งานเรียบร้อย เก็บรายละเอียด</span>
+          </li>
+          <li class="why-us-item">
+            <svg class="why-us-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>ให้คำแนะนำก่อนตัดสินใจ ฟรี!</span>
+          </li>
+          <li class="why-us-item">
+            <svg class="why-us-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>รับงานในขอนแก่นและพื้นที่ใกล้เคียง</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PORTFOLIO SECTION ==================== -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">ผลงานที่ผ่านมา</h2>
+      </div>
+
+      <!-- Main 6 Projects Grid matching reference -->
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/service_house.jpg" data-title="สร้างบ้าน 2 ชั้น" data-loc="อ.เมือง จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/service_house.jpg" alt="สร้างบ้าน 2 ชั้น อ.เมือง จ.ขอนแก่น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">สร้างบ้าน 2 ชั้น</h4>
+            <span class="portfolio-loc">อ.เมือง จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/service_extension.jpg" data-title="ต่อเติมครัวหลังบ้าน" data-loc="อ.บ้านไผ่ จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/service_extension.jpg" alt="ต่อเติมครัวหลังบ้าน อ.บ้านไผ่ จ.ขอนแก่น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">ต่อเติมครัวหลังบ้าน</h4>
+            <span class="portfolio-loc">อ.บ้านไผ่ จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/service_renovation.jpg" data-title="รีโนเวทภายในบ้าน" data-loc="อ.เมือง จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/service_renovation.jpg" alt="รีโนเวทภายในบ้าน อ.เมือง จ.ขอนแก่น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">รีโนเวทภายในบ้าน</h4>
+            <span class="portfolio-loc">อ.เมือง จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/service_concrete.jpg" data-title="เทพื้นโรงรถ" data-loc="อ.พระยืน จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/service_concrete.jpg" alt="เทพื้นโรงรถ อ.พระยืน จ.ขอนแก่น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">เทพื้นโรงรถ</h4>
+            <span class="portfolio-loc">อ.พระยืน จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/service_structure.jpg" data-title="งานโครงสร้างอาคาร" data-loc="อ.น้ำพอง จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/service_structure.jpg" alt="งานโครงสร้างอาคาร อ.น้ำพอง จ.ขอนแก่น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">งานโครงสร้างอาคาร</h4>
+            <span class="portfolio-loc">อ.น้ำพอง จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/service_fence.jpg" data-title="รั้วและประตู" data-loc="อ.กระนวน จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/service_fence.jpg" alt="รั้วและประตู อ.กระนวน จ.ขอนแก่น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">รั้วและประตู</h4>
+            <span class="portfolio-loc">อ.กระนวน จ.ขอนแก่น</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extra Projects Drawer for Load More feature -->
+      <div class="portfolio-extra-grid" id="portfolioExtra">
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/portfolio_house2.jpg" data-title="ก่อสร้างบ้านสไตล์โมเดิร์น" data-loc="อ.ชุมแพ จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/portfolio_house2.jpg" alt="ก่อสร้างบ้านสไตล์โมเดิร์น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">บ้านโมเดิร์น 2 ชั้น</h4>
+            <span class="portfolio-loc">อ.ชุมแพ จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/portfolio_warehouse.jpg" data-title="ก่อสร้างโกดังและโรงงาน" data-loc="อ.เมือง จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/portfolio_warehouse.jpg" alt="ก่อสร้างโกดังและโรงงาน" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">โครงสร้างโกดังเก็บสินค้า</h4>
+            <span class="portfolio-loc">อ.เมือง จ.ขอนแก่น</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-lightbox data-img-src="./assets/images/portfolio_commercial.jpg" data-title="อาคารพาณิชย์ 3 ชั้น" data-loc="อ.พล จ.ขอนแก่น">
+          <div class="portfolio-img-wrap">
+            <img src="./assets/images/portfolio_commercial.jpg" alt="อาคารพาณิชย์ 3 ชั้น" class="portfolio-img" loading="lazy">
+            <div class="portfolio-badge-zoom">&#x1F50D;</div>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">อาคารพาณิชย์ 3 ชั้น</h4>
+            <span class="portfolio-loc">อ.พล จ.ขอนแก่น</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Button -->
+      <div class="portfolio-action">
+        <button class="btn-portfolio-more" id="btnPortfolioMore">
+          <span>ดูผลงานเพิ่มเติม</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICE AREA & CONTACT DARK SECTION ==================== -->
+  <section class="contact-section" id="service-area">
+    <div class="container contact-grid">
+      <!-- Left: Service Area -->
+      <div class="service-area-box">
+        <span class="area-subtitle">พื้นที่ให้บริการ</span>
+        <h3 class="area-title-gold"><span>ขอนแก่น</span>และจังหวัดใกล้เคียง</h3>
+        <div class="area-line"></div>
+
+        <div class="area-locations-wrapper">
+          <!-- Location Pin SVG -->
+          <svg class="area-pin-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          <div class="area-locations-text">
+            <strong>ขอนแก่น</strong> | อุดรธานี | หนองบัวลำภู | ชัยภูมิ | มหาสารคาม<br>
+            กาฬสินธุ์ | ร้อยเอ็ด | เลย | หนองคาย | บึงกาฬ<br>
+            และพื้นที่ใกล้เคียง (สอบถามก่อนได้ครับ)
+          </div>
+        </div>
+
+        <!-- Stylized Map Illustration with glowing Khon Kaen location pin -->
+        <div class="area-map-container">
+          <svg class="map-svg" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Region border lines outline -->
+            <path d="M60 20 Q120 10 180 30 T280 40 T240 100 T140 110 T40 80 Z" stroke="#D19B3D" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.45" fill="rgba(209, 155, 61, 0.04)"/>
+            <path d="M110 35 Q160 25 210 45 T230 90 T150 95 T100 70 Z" stroke="#D19B3D" stroke-width="1.8" opacity="0.65" fill="rgba(209, 155, 61, 0.08)"/>
+            <!-- Surrounding dots for cities -->
+            <circle cx="90" cy="45" r="3" fill="#D19B3D" opacity="0.7"/>
+            <text x="82" y="38" font-size="8" fill="#D1D5DB" font-family="'Prompt', sans-serif">ชัยภูมิ</text>
+            <circle cx="140" cy="30" r="3" fill="#D19B3D" opacity="0.7"/>
+            <text x="130" y="24" font-size="8" fill="#D1D5DB" font-family="'Prompt', sans-serif">อุดรธานี</text>
+            <circle cx="215" cy="55" r="3" fill="#D19B3D" opacity="0.7"/>
+            <text x="218" y="55" font-size="8" fill="#D1D5DB" font-family="'Prompt', sans-serif">กาฬสินธุ์</text>
+            <circle cx="195" cy="85" r="3" fill="#D19B3D" opacity="0.7"/>
+            <text x="198" y="88" font-size="8" fill="#D1D5DB" font-family="'Prompt', sans-serif">มหาสารคาม</text>
+            <!-- Khon Kaen Golden Center Pin -->
+            <g transform="translate(145, 45)">
+              <circle cx="12" cy="12" r="16" fill="#D19B3D" opacity="0.25"/>
+              <circle cx="12" cy="12" r="10" fill="#D19B3D" opacity="0.5"/>
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#FFFFFF"/>
+              <text x="-6" y="30" font-size="11" font-weight="700" fill="#D19B3D" font-family="'Prompt', sans-serif">ขอนแก่น</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Center: Contact Actions Card -->
+      <div class="contact-card-white" id="contact">
+        <h4 class="contact-card-title">
+          มีงานก่อสร้าง?<br>
+          ปรึกษา/ประเมินราคา <span class="text-gold">ฟรี!</span>
+        </h4>
+        <p class="contact-card-subtitle">ทักมาคุยรายละเอียดได้เลยครับ</p>
+
+        <div class="contact-buttons-list">
+          <!-- Phone Button -->
+          <a href="tel:0987654321" class="btn-contact phone" title="โทรหาช่างบอล">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            <span>098-765-4321</span>
+          </a>
+
+          <!-- Line Button -->
+          <a href="https://line.me/ti/p/~@changball" target="_blank" rel="noopener noreferrer" class="btn-contact line" title="แอดไลน์ช่างบอล">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 10.3c0-4.6-4.9-8.3-11-8.3C6.9 2 2 5.7 2 10.3c0 4.1 3.7 7.6 8.7 8.2.3.1.8.2.9.6.1.3.1.8 0 1.1-.1.5-.6 2.1-.8 2.6-.1.4-.5 1.6 1.4.9 1.9-.7 5.2-3.1 7.1-5.3 3-2.1 4.7-4.8 4.7-8.1z"/>
+            </svg>
+            <span>@changball</span>
+          </a>
+
+          <!-- Facebook Button -->
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn-contact facebook" title="Facebook ช่างบอล">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            <span>ช่างบอล รับเหมา ขอนแก่น</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Photo Collage -->
+      <div class="contact-collage">
+        <div class="collage-item" data-lightbox data-img-src="./assets/images/consult_blueprint.jpg" data-title="ออกแบบและเขียนแบบแปลน" data-loc="ฟรี! เมื่อตกลงทำสัญญา">
+          <img src="./assets/images/consult_blueprint.jpg" alt="เขียนแบบบ้าน ปรึกษาแบบก่อสร้าง" loading="lazy">
+        </div>
+        <div class="collage-item" data-lightbox data-img-src="./assets/images/consult_supervision.jpg" data-title="ควบคุมงานโดยทีมงานช่างมืออาชีพ" data-loc="มาตรฐานวิศวกรรม">
+          <img src="./assets/images/consult_supervision.jpg" alt="คุมงานก่อสร้างหน้างาน" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copy">© <span id="currentYear">2024</span> ช่างบอลรับเหมา รับเหมางานครบ จบงานด้วยใจ</p>
+    </div>
+  </footer>
+
+  <!-- ==================== MOBILE FLOATING BOTTOM BAR ==================== -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bottom-grid">
+      <a href="tel:0987654321" class="btn-sticky phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+        <span>โทรติดต่อ</span>
+      </a>
+      <a href="https://line.me/ti/p/~@changball" target="_blank" rel="noopener noreferrer" class="btn-sticky line">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M24 10.3c0-4.6-4.9-8.3-11-8.3C6.9 2 2 5.7 2 10.3c0 4.1 3.7 7.6 8.7 8.2.3.1.8.2.9.6.1.3.1.8 0 1.1-.1.5-.6 2.1-.8 2.6-.1.4-.5 1.6 1.4.9 1.9-.7 5.2-3.1 7.1-5.3 3-2.1 4.7-4.8 4.7-8.1z"/>
+        </svg>
+        <span>ทัก LINE</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==================== LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="ภาพขยายผลงาน">
+    <button class="lightbox-close" id="lightboxClose" aria-label="ปิดภาพขยาย">&times;</button>
+    <div class="lightbox-content">
+      <div class="lightbox-img-wrap">
+        <img src="" alt="ขยายภาพผลงาน" id="lightboxImg" class="lightbox-img">
+      </div>
+      <div class="lightbox-footer">
+        <div>
+          <div class="lightbox-caption" id="lightboxCaption">ชื่อผลงาน</div>
+          <div class="lightbox-subcaption" id="lightboxSubcaption">สถานที่</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DCA842"/>
+      <stop offset="50%" stop-color="#C58F28"/>
+      <stop offset="100%" stop-color="#A47012"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E242B"/>
+      <stop offset="100%" stop-color="#0F1318"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Outer subtle border ring -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-opacity="0.35"/>
+  
+  <!-- House Roof and Chimney -->
+  <g filter="url(#shadow)" transform="translate(0, 10)">
+    <!-- Chimney -->
+    <path d="M330 180 V120 H370 V220 Z" fill="#A47012" />
+    
+    <!-- Roof Gable Line -->
+    <path d="M120 250 L256 130 L392 250" fill="none" stroke="url(#goldGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Main House Body -->
+    <path d="M160 240 V380 H352 V240" fill="none" stroke="url(#goldGrad)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Front Door & Window Motif -->
+    <rect x="226" y="270" width="60" height="110" rx="6" fill="none" stroke="url(#goldGrad)" stroke-width="16"/>
+    
+    <!-- Construction Brick Pattern / Accent lines -->
+    <line x1="164" y1="310" x2="226" y2="310" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+    <line x1="286" y1="310" x2="348" y2="310" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Foundation Beam Line -->
+    <line x1="130" y1="390" x2="382" y2="390" stroke="url(#goldGrad)" stroke-width="22" stroke-linecap="round"/>
+  </g>
+</svg>

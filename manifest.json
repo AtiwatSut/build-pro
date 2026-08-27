@@ -1,0 +1,41 @@
+{
+  "name": "ช่างบอลรับเหมา รับเหมางานก่อสร้างขอนแก่น",
+  "short_name": "ช่างบอลรับเหมา",
+  "description": "รับเหมางานก่อสร้างครบวงจร ขอนแก่นและพื้นที่ใกล้เคียง สร้างบ้าน ต่อเติม รีโนเวท เทปูน งานโครงสร้าง งานทั่วไป ดูแลเองทุกขั้นตอน",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF9F5",
+  "theme_color": "#D19B3D",
+  "orientation": "portrait-primary",
+  "lang": "th",
+  "icons": [
+    {
+      "src": "./assets/icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
