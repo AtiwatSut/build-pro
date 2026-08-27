@@ -1,6 +1,6 @@
-# ช่างบอลรับเหมา - Web Profile (Static & PWA Ready)
+# ช่างตี๋รับเหมา - Web Profile (Static & PWA Ready)
 
-เว็บไซต์หน้าโปรไฟล์รับเหมาก่อสร้างสำหรับช่างบอล ออกแบบตรงตามตัวอย่างอ้างอิง รองรับการเปิดบนทุกอุปกรณ์ (Responsive Mobile, Tablet, Desktop) และรองรับการติดตั้งเป็น Progressive Web App (PWA)
+เว็บไซต์หน้าโปรไฟล์รับเหมาก่อสร้างสำหรับช่างตี๋ ออกแบบตรงตามตัวอย่างอ้างอิง รองรับการเปิดบนทุกอุปกรณ์ (Responsive Mobile, Tablet, Desktop) และรองรับการติดตั้งเป็น Progressive Web App (PWA)
 
 ## 📁 โครงสร้างไฟล์ในโปรเจกต์
 ```
