@@ -1,5 +1,5 @@
 /**
- * ช่างบอลรับเหมา - Main JavaScript Application
+ * ช่างตี๋รับเหมา - Main JavaScript Application
  * PWA Registration, Lightbox, Navigation, and Interactive UI
  */
 
